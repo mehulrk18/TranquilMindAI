@@ -1,0 +1,8 @@
+torch
+transformers
+gtts
+pygame
+bitsandbytes
+ipython
+SpeechRecognition
+pyaudio
