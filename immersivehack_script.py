@@ -14,7 +14,7 @@ import warnings
 warnings.filterwarnings("ignore")
 from huggingface_hub import login
 
-login(token="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")
+login(token="*your hf token*")
 
 device = "mps" if torch.backends.mps.is_available() else ("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
